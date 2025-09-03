@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "League Gothic", "sans-serif";
+  --font-lekton: "Lekton", "sans-serif";
+  --font-ubuntu: "Ubuntu", "sans-serif";
+  --font-cascadia: "Cascadia Code", "sans-serif";
+}
+
+a {
+  @apply underline text-sky-600 hover:bg-sky-600 hover:text-slate-200;
+}
+
+ul {
+  @apply ml-8 list-outside list-disc;
+}
+
+ol {
+  @apply ml-8 list-outside list-decimal;
+}
+
+.btn {
+  @apply no-underline outline outline-1 px-2 text-sky-600 hover:bg-sky-600 hover:text-slate-200;
+}
+
+.bg-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    theme(colors.slate.300),
+    theme(colors.slate.300) 16px,
+    theme(colors.slate.200) 16px,
+    theme(colors.slate.200) 32px
+  );
+}

@@ -10,8 +10,28 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^3.6.3",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/image": "1.11.0",
+    "@nuxtjs/color-mode": "3.5.2",
+    "@tailwindcss/vite": "^4.1.12",
+    "better-sqlite3": "^12.2.0",
+    "color-mode": "0.1.0",
     "nuxt": "^4.0.3",
+    "tailwindcss": "^4.1.12",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "ipx": "^3.0.0"
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp",
+      "@tailwindcss/oxide"
+    ]
   }
 }
