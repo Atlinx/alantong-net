@@ -28,12 +28,12 @@
       >
         <template v-if="props.preview && (item_has_preview(project) || greater('sm'))">
           <img
-            class="w-full aspect-video sm:w-64 sm:min-h-64 sm:aspect-auto object-cover border-solid border border-sky-600 bg-sky-600"
+            class="w-full aspect-video sm:min-w-64 sm:w-64 sm:max-w-64 sm:min-h-64 sm:aspect-square object-cover border-solid border border-sky-600 bg-sky-600"
             :src="project.image"
             v-if="project.image"
           />
           <video
-            class="w-full aspect-video sm:w-64 sm:min-h-64 sm:aspect-square object-cover border-solid border border-sky-600 bg-sky-600"
+            class="w-full aspect-video sm:min-w-64 sm:w-64 sm:max-w-64 sm:min-h-64 sm:aspect-square object-cover border-solid border border-sky-600 bg-sky-600"
             :src="project.video"
             v-if="project.video"
             autoplay
@@ -42,11 +42,11 @@
           />
           <template v-if="!item_has_preview(project)">
             <div
-              class="w-full aspect-video sm:max-w-64 sm:min-h-64 sm:aspect-square border-solid border border-slate-300 opacity-50 bg-stripes"
+              class="w-full aspect-video sm:min-w-64 sm:w-64 sm:max-w-64 sm:min-h-64 sm:aspect-square border-solid border border-slate-300 opacity-50 bg-stripes"
               v-if="props.preview == 'show_stripes'"
             ></div>
             <div
-              class="w-full aspect-video sm:max-w-64 sm:min-h-64 sm:aspect-square"
+              class="w-full aspect-video sm:min-w-64 sm:w-64 sm:max-w-64 sm:min-h-64 sm:aspect-square"
               v-if="props.preview == 'show_empty'"
             ></div>
           </template>
