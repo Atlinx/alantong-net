@@ -41,6 +41,7 @@ function reveal_email() {
         </div>
         <img
           class="w-full aspect-square max-w-100 sm:max-w-none sm:h-64 md:h-80 object-cover max-sm:object-[100%_40%] border border-sky-600 bg-sky-600"
+            alt="Portrait of myself standing in front of a London skyline."
           src="/images/portrait.webp"
         />
       </div>
