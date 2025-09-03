@@ -27,3 +27,8 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+
+## Licenses
+
+- favicon.ico
+    - Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)

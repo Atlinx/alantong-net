@@ -23,7 +23,7 @@ const SMALLER_BREAKPOINT_MAP: Map<BreakpointType, Set<BreakpointType>> = (() => 
 const BREAKPOINT_NAMES = Object.keys(BREAKPOINT_MAP) as BreakpointType[]
 
 export function useBreakpoints() {
-  const active = ref<BreakpointType>("sm");
+  const active = ref<BreakpointType>("md");
 
   const updateBreakpoint = () => {
     const windowWidth = window.innerWidth;

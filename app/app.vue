@@ -40,8 +40,8 @@ function reveal_email() {
           </div>
         </div>
         <img
-          class="max-w-full aspect-square sm:h-64 md:h-80 object-cover max-sm:object-[100%_40%] border border-sky-600 bg-sky-600"
-          src="/images/portrait.jpg"
+          class="w-full aspect-square max-w-100 sm:max-w-none sm:h-64 md:h-80 object-cover max-sm:object-[100%_40%] border border-sky-600 bg-sky-600"
+          src="/images/portrait.webp"
         />
       </div>
       <AContentSection class="mt-16" collection="projects" preview="show_stripes"/>

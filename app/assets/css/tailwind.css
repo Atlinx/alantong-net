@@ -5,6 +5,11 @@
   --font-lekton: "Lekton", "sans-serif";
   --font-ubuntu: "Ubuntu", "sans-serif";
   --font-cascadia: "Cascadia Code", "sans-serif";
+  --max-w-90: calc(var(--spacing) * 120);
+  --max-w-100: calc(var(--spacing) * 120);
+  --max-w-110: calc(var(--spacing) * 120);
+  --max-w-120: calc(var(--spacing) * 120);
+  --max-w-128: calc(var(--spacing) * 120);
 }
 
 a {
