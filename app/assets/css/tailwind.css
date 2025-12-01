@@ -12,6 +12,9 @@
   --max-w-128: calc(var(--spacing) * 120);
 }
 
+@source inline("object-{top,center,bottom,left,right}");
+@source inline("object-{top,bottom}-{left,right}");
+
 a {
   @apply underline text-sky-600 hover:bg-sky-600 hover:text-slate-200;
 }

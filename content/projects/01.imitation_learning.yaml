@@ -1,6 +1,7 @@
 name: Imitation Learning
 subtitle: PRACSYS Lab
 video: /videos/gello.mp4
+tailwind_class: object-bottom
 date: May 2025 - Present
 desc:
   - Built imitation learning infrastructure in Python and ROS Noetic to train and test robot policies on the UR5e and Motoman SDA10F robots

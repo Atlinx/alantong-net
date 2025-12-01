@@ -1,6 +1,7 @@
 name: ILOC Instruction Scheduler
 subtitle: CS415 Compilers Project
 video: /videos/iloc_scheduler.mp4
+tailwind_class: object-right
 date: Spring 2025
 links:
   "demo": https://ru-cs-415-iloc-scheduler.vercel.app/

@@ -1,6 +1,8 @@
 name: Transfer Learning in Sentiment Analysis
 subtitle: CS439 Intro to Data Science Project
 date: Spring 2025
+image: /images/steam_reviews.png
+tailwind_class: object-top-left
 links:
   "github": https://github.com/Atlinx/BERT-TLSA-paper
 desc:

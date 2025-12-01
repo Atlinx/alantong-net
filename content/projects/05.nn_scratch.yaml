@@ -1,5 +1,7 @@
 name: Neural Network From Scratch
 date: Spring 2024
+image: /images/mlp_mnist.gif
+tailwind_class: object-left
 subtitle: CS440 Intro to AI Project
 links:
   "github": https://github.com/Atlinx/RU-CS440/tree/main/assignment_4

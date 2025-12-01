@@ -27,14 +27,14 @@
         <template v-if="props.preview">
           <img
             class="w-full aspect-video max-w-100 sm:max-w-none sm:w-48 md:w-64 sm:min-h-64 sm:aspect-square object-cover border-solid border border-sky-600 bg-sky-600"
+            :class="{[project.meta.tailwind_class]: true}"
             :src="project.image"
-            alt="Preview image of a project."
             v-if="project.image"
           />
           <video
             class="w-full aspect-video max-w-100 sm:max-w-none sm:w-48 md:w-64 sm:min-h-64 sm:aspect-square object-cover border-solid border border-sky-600 bg-sky-600"
+            :class="{[project.meta.tailwind_class]: true}"
             :src="project.video"
-            alt="Preview video of a project."
             v-if="project.video"
             autoplay
             muted

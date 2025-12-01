@@ -3,6 +3,7 @@ const email_address = useState("email_address", () => "");
 function reveal_email() {
   email_address.value = atob("YWp0MjA4QHJ1dGdlcnMuZWR1");
 }
+const last_updated = new Date("2025-12-1 3:14 PM EST")
 </script>
 
 <template>
@@ -35,8 +36,11 @@ function reveal_email() {
             in my free time. You can contact me through the email listed below.
           </p>
           <div class="flex flex-wrap gap-4 mt-4">
-            <button class="btn" @click="reveal_email">show email</button>
-            <p>{{ email_address }}</p>
+            <div class="flex flex-col gap-1 self-start min-w-40">
+              <button class="btn" @click="reveal_email">show email</button>
+              <p>{{ email_address }}</p>
+            </div>
+            <a class="btn self-start" href="/files/alan_tong_resume.pdf" target="_blank">curriculum vitae</a>
           </div>
         </div>
         <img
@@ -59,8 +63,15 @@ function reveal_email() {
           <p>B.S. in Computer Science</p>
           <p>Summa Cum Laude</p>
           <p>B.A. in Leadership and Management</p>
-          <p>Phi Beta Kappa Honors Society</p>
+          <p>Matthew Leydt Society <b>(top 2%)</b></p>
+          <p></p>
+          <p>Phi Beta Kappa Honors Society <b>(top 10%)</b></p>
         </div>
+      </div>
+      
+      <div class="mt-8 inline-flex flex-wrap text-slate-400">
+        <p class="mr-10">Last Updated:</p>
+        <p>{{ last_updated }}</p>
       </div>
     </div>
   </div>
