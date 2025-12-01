@@ -38,6 +38,9 @@
             v-if="project.video"
             autoplay
             muted
+            draggable="false"
+            playsinline
+            preload="auto"
             loop
           />
           <template v-if="!item_has_preview(project)">

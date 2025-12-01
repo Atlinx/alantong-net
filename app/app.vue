@@ -36,11 +36,8 @@ const last_updated = new Date("2025-12-1 3:14 PM EST")
             in my free time. You can contact me through the email listed below.
           </p>
           <div class="flex flex-wrap gap-4 mt-4">
-            <div class="flex flex-col gap-1 self-start min-w-40">
-              <button class="btn" @click="reveal_email">show email</button>
-              <p>{{ email_address }}</p>
-            </div>
-            <a class="btn self-start" href="/files/alan_tong_resume.pdf" target="_blank">curriculum vitae</a>
+            <button class="btn" @click="reveal_email">show email</button>
+            <p>{{ email_address }}</p>
           </div>
         </div>
         <img
